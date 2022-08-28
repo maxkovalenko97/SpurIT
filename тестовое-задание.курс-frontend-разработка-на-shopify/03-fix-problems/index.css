@@ -1,0 +1,40 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body  {
+    text-align: left;
+    background: cornsilk;
+    margin: 0 auto;
+}
+
+.article {
+    max-width: 680px;
+    font-family: sans-serif;
+    padding: 24px;   
+}
+
+.article__heading {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: palevioletred
+}
+
+.article__lead {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: serif;
+}
+
+.figure__image {
+    max-width: 100%;
+}
+
+.figure__caption{
+    margin: 8px 0 ;
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+}

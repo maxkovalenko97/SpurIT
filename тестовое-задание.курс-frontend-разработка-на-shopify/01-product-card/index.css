@@ -1,0 +1,133 @@
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p{
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Arial';
+  background: #F6F6F6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button{
+  font: inherit;
+}
+
+body {
+  margin: 0 auto;
+  color: #2F2F2F;
+}
+
+h2 { 
+  margin: 40px 0;
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  max-width: 380px;
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-card__text {
+  height: 148px;
+  padding: 24px;
+}
+
+.product-card__button {
+  height: 48px;
+  width: 100%;
+  max-width: 332px;
+  background-color: #FFFFFF;
+  border: 2px solid #42940F;
+  border-radius: 8px;
+  color: #42940F;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.product-card__button:hover {
+  background-color: #42940F;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.product-card__button:active {
+  background-color: #1F5200;
+  border-color: #1F5200;
+  color: #FFFFFF;
+}
+
+.product-card__button:disabled {
+  background-color: #4E4E4E;
+  border-color: #4E4E4E;
+  color: #FFFFFF;;
+}
+
+.product-card__tip-wrapper {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.product-card__tip {
+  padding: 0 16px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.product-card__tip_new {
+  background: #FDCFF3;
+}
+
+.product-card__tip_last {
+  background: #FFCF56;
+}
